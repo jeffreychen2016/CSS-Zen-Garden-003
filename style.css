@@ -1,0 +1,150 @@
+
+/*---------- Reset ----------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------- General ----------*/
+
+/*---------- Grid ----------*/
+body{
+    background-color: #748A9B;
+    font-weight: normal;
+    color: #fff;
+    font-family: georgia;
+    text-decoration: none;
+    font-size: 10px;
+}
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #849AA9;
+    padding-top: 35px;
+}
+
+header{
+    height: 100px;
+    display: table;
+    background-image: url('imgs/h1.jpg');
+    box-shadow: 0 5px 50px grey;
+    width: 770px;
+    margin: 0 auto;
+}
+
+.title{
+    display: table-cell;
+    vertical-align: middle;
+    width: 34%;
+    text-align: center;
+}
+
+.top-nav{
+    display: table-cell;
+    vertical-align: middle;
+    width: 36%;
+}
+
+.top-nav ul li{
+    display: inline;
+}
+
+.images-container{
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.indivisual-img-container{
+    flex-grow: 1;
+    text-align: center;
+    width: 0px;
+}
+
+.column-left{
+    width: 30%;
+    display: table-cell;
+    padding-left: 16px;
+}
+
+.column-right{
+    width: 70%;
+    display: table-cell;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.column-right a{
+    color:  #A7D3F6;
+}
+
+.column-left p,
+.column-right p{
+    text-align: justify;
+    font-size: 11px;
+    margin: 0 0 20px 0;    
+    font: italic 12px/20px georgia, serif;
+}
+
+.column-right p{
+    font: 11px/15px georgia, serif;
+}
+
+.column-right p a:hover{
+    color: #fff;
+}
+
+/*---------- Nav -----------*/
+.top-nav p{
+    font: bold 11px georgia;
+}
+.top-nav ul li a{
+    text-decoration: none; 
+    color: #fff; 
+    font: 11px georgia;
+    letter-spacing: -1px;
+}
+
+.top-nav ul li a:hover{
+    text-decoration: underline; 
+    color: #D1E9FC;
+}
+
+.top-nav ul li span{
+    color: #748A9B;
+}
+
+.buttom-nav{
+    text-align: right;
+}
+.buttom-nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.buttom-nav ul li a{
+    cursor: pointer;  
+    font: 11px/15px georgia, serif;
+    font-weight: bold;  
+    width: 40px;
+}
+
+.buttom-nav ul li:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #B59BAA;
+}
+
+/*--------- Footer -----------*/
+footer a{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer a:hover{
+    color:#fff;
+}
+
+
